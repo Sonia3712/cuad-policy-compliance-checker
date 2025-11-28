@@ -1,0 +1,10 @@
+streamlit>=1.28.0
+pandas
+langchain
+langchain-community
+langchain-google-genai
+chromadb
+pypdf
+sentence-transformers
+google-generativeai>=0.3.0
+tabulate
