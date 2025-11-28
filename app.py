@@ -1,9 +1,13 @@
 import streamlit as st
 import pandas as pd
 import json
+import os
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain_google_genai import GoogleGenerativeAI
+from langchain_google_genai import ChatGoogleGenerativeAI  # FIXED: New import (no pydantic_v1 error)
+
+# Set API key (add yours via Streamlit secrets or env)
+os.environ["GOOGLE_API_KEY"] = st.secrets.get("GOOGLE_API_KEY", "AIzaSyDo73M7eXko-uh-VN0FdQ4vkjo0zll5R2g")  # Replace if needed
 
 st.set_page_config(page_title="CUAD Compliance Checker - Task 2", layout="wide")
 st.title("Policy Compliance Checker")
@@ -19,7 +23,7 @@ def load_all():
     return db.as_retriever(search_kwargs={"k": 8}), df, rules
 
 retriever, df, rules = load_all()
-llm = GoogleGenerativeAI(model="gemini-1.5-flash", temperature=0)
+llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0)  # FIXED: Use ChatGoogleGenerativeAI
 
 st.subheader("Full Compliance Report")
 compliant = df['compliant'].sum()
