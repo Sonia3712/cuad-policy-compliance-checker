@@ -1,0 +1,19 @@
+{
+  "rules": [
+    "Contract must specify the Agreement Date.",
+    "Contract must specify the Effective Date.",
+    "Contract must specify the Expiration or Renewal terms.",
+    "Contract must define which Governing Law applies.",
+    "Contract must contain a Confidentiality or NDA clause.",
+    "Contract must include an IP Ownership or Joint IP clause.",
+    "Contract must specify License Grant terms.",
+    "Contract must include a No-Compete, Exclusivity, or No-Solicit clause.",
+    "Contract must define Assignment and Change-of-Control rules.",
+    "Contract must specify Indemnification responsibilities.",
+    "Contract must specify Liability limitations or caps.",
+    "Contract must include Warranties and Warranty Duration.",
+    "Contract must include Termination or Termination for Convenience clause.",
+    "Contract must include Audit Rights or post-termination responsibilities.",
+    "Contract must include Insurance requirements, if applicable."
+  ]
+}
