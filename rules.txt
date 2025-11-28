@@ -1,0 +1,15 @@
+1. Contract must specify the Agreement Date.
+2. Contract must specify the Effective Date.
+3. Contract must specify the Expiration or Renewal terms.
+4. Contract must define which Governing Law applies.
+5. Contract must contain a Confidentiality or NDA clause.
+6. Contract must include an IP Ownership or Joint IP clause.
+7. Contract must specify License Grant terms.
+8. Contract must include a No-Compete, Exclusivity, or No-Solicit clause.
+9. Contract must define Assignment and Change-of-Control rules.
+10. Contract must specify Indemnification responsibilities.
+11. Contract must specify Liability limitations or caps.
+12. Contract must include Warranties and Warranty Duration.
+13. Contract must include Termination or Termination for Convenience clause.
+14. Contract must include Audit Rights or post-termination responsibilities.
+15. Contract must include Insurance requirements, if applicable.
